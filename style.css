@@ -1,0 +1,48 @@
+.css-button {
+           border-radius: 40px;
+           position: relative;
+           font-weight: bold;
+           display: inline;
+           border: none;
+           color: var(--text, hsl(0, 0%, 100%));
+           background: var(--black-button, hsl(0, 0%, 0%));
+           cursor: pointer;
+           text-align: center;
+           padding: 15px;
+           font-size: 16px;
+           width: 10%;
+             }
+
+.css-spiski {
+           width: 30%;
+           height: 36px;
+           color: var(--text, hsl(0, 0%, 0%));
+           background: var(--black-button, hsl(0, 0%, 100%));
+           border-radius: 5px;
+            }
+a {
+           text-decoration: none;
+           font-weight: bold;
+           color: red;
+           font-size: 16px;
+
+       }
+label {
+           font-weight: bold;
+           font-style: oblique;
+           color: black;
+           font-size: 16px;
+        }
+h1 {
+           font-style: oblique;
+           color: blue;
+        }
+th {
+           font-style: oblique;
+           color: blue;
+           font-weight: bold;
+        }
+tr {
+           font-style: oblique;
+           color: red;
+        }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин кофе</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form action="select1.php" method="post">
+    <span>
+        <input type="radio" id="1" name="сорт кофе" value="Зерновой кофе" checked="">
+        <label for="1">Зерновой кофе</label>
+    </span>
+    <span>
+        <input type="radio" id="2" name="сорт кофе" value="Молотый кофе">
+        <label for="2">Молотый кофе</label>
+    </span>
+    <br/>
+    <br/>
+        <select class="css-spiski" class="css-4" multiple size="3" name="степень обжарки">
+            <option disabled selected="selected">Выберите степень обжарки</option>
+            <option value="Высокая">Высокая</option>
+            <option value="Средняя">Средняя</option>
+            <option value="Низкая">Низкая</option>
+        </select>
+    <br/>
+    <br/>
+    <select class="css-spiski" name="сорт кофе">
+        <option selected="selected">Выберите сорт</option>
+        <option value="Арабика">Арабика</option>
+        <option value="90% Арабика 10% Робуста">90% Арабика 10% Робуста</option>
+        <option value="70% Арабика 30% Робуста">70% Арабика 30% Робуста</option>
+        <option value="50% Арабика 50% Робуста">50% Арабика 50% Робуста</option>
+    </select>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <hr/>
+    <div>
+        <input id="0" type="checkbox">
+        <label for="0">Без обжарки</label>
+    </div>
+    <hr/>
+    <div>
+        <button type="submit" aria-pressed="false" class="css-button">
+            <div class="css-button">Показать</div>
+        </button>
+    </div>
+    <br/>
+    <a target="_blank" href=Description.html>Как степень обжарки влияет на химический состав кофе?</a>
+</form>
+<form action="textarea1.php" method="post">
+    <p><b>Введите ваш отзыв:</b></p>
+    <p><textarea rows="10" cols="45" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
